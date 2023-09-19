@@ -91,40 +91,8 @@ img{
     align-self: center;
 }
 
-@media (max-width:768px){
-
-    main{
-        grid-template-columns: 1fr;
-        
-    }
-
-}
-
-@media (max-width:478px){
-
-    main{
-       grid-template-columns: 1fr;
-    }
-
-
-
-    body{
-        text-align: center;
-        margin: 1em;
-        font-size: .7rem;
-    }
-
-    .columns{
-        flex-direction: column;
-    }
-
-    .first-header .second-header{
-        width: 400px;
-        font-size: 1rem;
-    }
-
-    .col-1 .col-2 .col-3 .col-4{
-        padding-bottom: 1.8em;
-       
-    }
+footer{
+   font-size: 1.5rem;
+   text-align: center;
+   color: hsl(228, 45%, 44%);
 }
